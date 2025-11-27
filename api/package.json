@@ -1,5 +1,5 @@
 {
-  "name": "x409-server-example",
+  "name": "x402-server-example",
   "version": "1.0.0",
   "description": "Example implementation of server-side x409 crypto payments protocol",
   "license": "ISC",
