@@ -8,16 +8,18 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node index.ts",
+    "dev": "tsx index.ts",
     "start": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
     "ts-node": "^10.9.0",
+    "tsx": "^4.20.6",
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@coinbase/x402": "^0.7.3",
     "@hono/node-server": "^1.19.6",
     "dotenv": "^17.2.3",
     "hono": "^4.10.7",
