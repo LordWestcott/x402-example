@@ -33,8 +33,6 @@ app.use(paymentMiddleware(
                 // Explicitly set resource URL to match what the wallet will use
                 // This ensures the payment authorization matches the resource being accessed
                 resource: `http://localhost:3000/super-secret-knowledge`,
-                // Increase timeout to allow for blockchain settlement
-                // Note: This is the paywall timeout, not settlement wait time
                 // The facilitator verifies immediately, but transactions may take 10-30 seconds to confirm
                 maxTimeoutSeconds: 300, // 5 minutes - gives user time to complete payment and wait for confirmation
             }
